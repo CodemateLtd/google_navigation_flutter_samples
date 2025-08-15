@@ -4,7 +4,7 @@ This repository contains sample implementations and test projects for Google Nav
 
 ## Projects
 
-### ios_test/
+### minimun_test_project/
 iOS-specific test project demonstrating Google Navigation Flutter SDK integration for iOS. This project focuses on testing navigation session initialization, guidance features, and background navigation without map view display.
 
 **Key Features:**
@@ -16,7 +16,7 @@ iOS-specific test project demonstrating Google Navigation Flutter SDK integratio
 
 **Setup:**
 ```bash
-cd ios_test
+cd minimun_test_project
 flutter pub get
 # Add your Google Maps API key to ios/Runner/AppDelegate.swift
 flutter run
@@ -26,7 +26,7 @@ flutter run
 
 - Flutter SDK
 - Google Maps API Key with Navigation SDK enabled
-- iOS development environment (for ios_test)
+- iOS development environment (for minimun_test_project)
 
 ## Getting Started
 
