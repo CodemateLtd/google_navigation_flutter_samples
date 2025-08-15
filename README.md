@@ -16,10 +16,10 @@ iOS-specific test project demonstrating Google Navigation Flutter SDK integratio
 
 **Setup:**
 ```bash
-cd minimun_test_project
+cd ios_test
 flutter pub get
-# Add your Google Maps API key to ios/Runner/AppDelegate.swift
-flutter run
+# Pass your Google Maps API key using --dart-define
+flutter run --dart-define=MAPS_API_KEY=YOUR_API_KEY
 ```
 
 ## Requirements
